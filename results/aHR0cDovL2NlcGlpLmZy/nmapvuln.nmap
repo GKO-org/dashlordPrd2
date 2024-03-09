@@ -1,0 +1,22 @@
+# Nmap 7.92 scan initiated Sat Mar  9 13:56:35 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cepii.fr
+Nmap scan report for cepii.fr (46.18.195.31)
+Host is up (0.084s latency).
+rDNS record for 46.18.195.31: ds-195-31.dri-services.net
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+21/tcp open     ftp     FileZilla ftpd
+25/tcp filtered smtp
+80/tcp open     http    Microsoft IIS httpd 8.5
+| vulners: 
+|   cpe:/a:microsoft:internet_information_server:8.5: 
+|     	VERACODE:44358	5.0	https://vulners.com/veracode/VERACODE:44358
+|     	VERACODE:44063	5.0	https://vulners.com/veracode/VERACODE:44063
+|     	EDB-ID:51787	5.0	https://vulners.com/exploitdb/EDB-ID:51787	*EXPLOIT*
+|     	E09B73C7-B7F0-563D-B779-77EED1D3F26A	5.0	https://vulners.com/githubexploit/E09B73C7-B7F0-563D-B779-77EED1D3F26A	*EXPLOIT*
+|     	1337DAY-ID-39315	5.0	https://vulners.com/zdt/1337DAY-ID-39315	*EXPLOIT*
+|_    	1337DAY-ID-39079	5.0	https://vulners.com/zdt/1337DAY-ID-39079	*EXPLOIT*
+|_http-server-header: Microsoft-IIS/8.5
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 13:56:51 2024 -- 1 IP address (1 host up) scanned in 16.07 seconds
