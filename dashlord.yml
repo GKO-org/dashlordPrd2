@@ -24,4 +24,43 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: http://policenationale.ddev.site
+  - url: https://bison-fute.gouv.fr
+  - url: https://boamp.fr
+  - url: https://bodacc.fr
+  - url: https://boss.gouv.fr
+  - url: https://bouches-du-rhone.gouv.fr
+  - url: https://budget.gouv.fr
+  - url: https://cadastre.gouv.fr
+  - url: https://cae.gouv.fr
+  - url: https://calvados.gouv.fr
+  - url: https://cantal.gouv.fr
+  - url: https://cartes.gouv.fr
+  - url: https://centre-documentation-spm.gouv.fr
+  - url: http://cepii.fr
+  - url: https://cfsfc.impots.gouv.fr/enp
+  - url: https://cfspart.impots.gouv.fr/tdir/
+  - url: https://cfspart.impots.gouv.fr/tremisu/
+  - url: https://cfspart.impots.gouv.fr/verifavis
+  - url: https://dons.encheres-domaine.gouv.fr
+  - url: https://republique-numerique.gouv.fr
+  - url: https://champagne-ardenne.gouv.fr
+  - url: https://charente.gouv.fr
+  - url: https://charente-maritime.gouv.fr
+  - url: https://cheminsdememoire.gouv.fr
+  - url: https://cher.gouv.fr
+  - url: https://choisirleservicepublic.gouv.fr
+  - url: https://choosefrance.fr
+  - url: https://cigeo.gouv.fr
+  - url: https://ciivise.fr
+  - url: https://civs.gouv.fr
+  - url: https://cnac.entreprises.gouv.fr
+  - url: https://cnaop.gouv.fr
+  - url: https://cnig.gouv.fr
+  - url: https://cnsa.fr
+  - url: https://code.gouv.fr
+  - url: https://collecte-pro.gouv.fr
+  - url: https://collectivites-locales.gouv.fr
+  - url: https://complementaire-sante-solidaire.gouv.fr
+  - url: https://concertation-strategie-energie-climat.gouv.fr
+  - url: https://conseiller-numerique.gouv.fr
+  - url: https://conseil-national-industrie.gouv.fr
