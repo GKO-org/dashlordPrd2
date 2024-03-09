@@ -1,0 +1,82 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:22:15 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ciivise.fr
+Nmap scan report for ciivise.fr (185.194.82.203)
+Host is up (0.093s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE    VERSION
+80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
+|_http-server-header: BigIP
+113/tcp closed ident
+443/tcp open   ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Connection: close
+|     Content-Length: 9
+|     ERROR
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Date: Sat, 09 Mar 2024 14:22:35 GMT
+|     X-Redirect-By: WordPress
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     Location: https:///
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: sameorigin
+|     Content-Security-Policy: frame-ancestors 'self';
+|     Content-Length: 0
+|     Keep-Alive: timeout=30, max=100
+|     Connection: close
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: BIGipServerpool-ciivise-prod.cegedim.cloud-HTTP=!Le2srWepw2mnNDZWDPlD0yXzT0UGhqKi9aARA3Y44wqhu5aEXSrd+Ab29xo+ca+OqzZFtolHFOMhN0cdnFFDObH/n72L; path=/; Httponly; Secure
+|     Set-Cookie: TS01ac8ac8=01352d38118d18598db69acce6dd76b21e0f6163e3a4dbd86cd4a9b430f54e19beb0b7d9093b8e257e67d6b3e9e4b71f6281093dcb; Path=/
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Date: Sat, 09 Mar 2024 14:22:35 GMT
+|     Link: <https://www.ciivise.fr/wp-json/>; rel="https://api.w.org/", <https://www.ciivise.fr/wp-json/wp/v2/pages/182>; rel="alternate"; type="application/json", <https://www.ciivise.fr/>; rel=shortlink
+|     X-TEC-API-VERSION: v1
+|     X-TEC-API-ROOT: https://www.ciivise.fr/wp-json/tribe/events/v1/
+|     X-TEC-API-ORIGIN: https://www.ciivise.fr
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     Vary: Accept-Encoding
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: sameorigin
+|     Content-Security-Policy: frame-ancestors 'self';
+|     Connection: close
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: BIGipServerpool-ciivise-prod.cegedim.cloud-HTTP=!SCbCEc+b2cze9KtWDPlD0yXzT0UGhnasRLlMs+XI1mViw2jMbfKloUVbWWfc0DGKeJeOsutMQQflb7k5npsv1nEtzHtj; path=/; Httponly; Secure
+|_    Set-Cookie: TS01ac8ac8=01352d38113165fd09207e3efd9a9bcc4d324606955d9e668aee2
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC70AB%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,2D5,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nDate
+SF::\x20Sat,\x2009\x20Mar\x202024\x2014:22:35\x20GMT\r\nX-Redirect-By:\x20
+SF:WordPress\r\nStrict-Transport-Security:\x20max-age=31536000;\x20include
+SF:SubDomains\r\nLocation:\x20https:///\r\nX-Content-Type-Options:\x20nosn
+SF:iff\r\nX-Frame-Options:\x20sameorigin\r\nContent-Security-Policy:\x20fr
+SF:ame-ancestors\x20'self';\r\nContent-Length:\x200\r\nKeep-Alive:\x20time
+SF:out=30,\x20max=100\r\nConnection:\x20close\r\nContent-Type:\x20text/htm
+SF:l;\x20charset=UTF-8\r\nSet-Cookie:\x20BIGipServerpool-ciivise-prod\.ceg
+SF:edim\.cloud-HTTP=!Le2srWepw2mnNDZWDPlD0yXzT0UGhqKi9aARA3Y44wqhu5aEXSrd\
+SF:+Ab29xo\+ca\+OqzZFtolHFOMhN0cdnFFDObH/n72L;\x20path=/;\x20Httponly;\x20
+SF:Secure\r\nSet-Cookie:\x20TS01ac8ac8=01352d38118d18598db69acce6dd76b21e0
+SF:f6163e3a4dbd86cd4a9b430f54e19beb0b7d9093b8e257e67d6b3e9e4b71f6281093dcb
+SF:;\x20Path=/\r\n\r\n")%r(HTTPOptions,43C5,"HTTP/1\.1\x20200\x20OK\r\nDat
+SF:e:\x20Sat,\x2009\x20Mar\x202024\x2014:22:35\x20GMT\r\nLink:\x20<https:/
+SF:/www\.ciivise\.fr/wp-json/>;\x20rel=\"https://api\.w\.org/\",\x20<https
+SF:://www\.ciivise\.fr/wp-json/wp/v2/pages/182>;\x20rel=\"alternate\";\x20
+SF:type=\"application/json\",\x20<https://www\.ciivise\.fr/>;\x20rel=short
+SF:link\r\nX-TEC-API-VERSION:\x20v1\r\nX-TEC-API-ROOT:\x20https://www\.cii
+SF:vise\.fr/wp-json/tribe/events/v1/\r\nX-TEC-API-ORIGIN:\x20https://www\.
+SF:ciivise\.fr\r\nStrict-Transport-Security:\x20max-age=31536000;\x20inclu
+SF:deSubDomains\r\nVary:\x20Accept-Encoding\r\nX-Content-Type-Options:\x20
+SF:nosniff\r\nX-Frame-Options:\x20sameorigin\r\nContent-Security-Policy:\x
+SF:20frame-ancestors\x20'self';\r\nConnection:\x20close\r\nContent-Type:\x
+SF:20text/html;\x20charset=UTF-8\r\nSet-Cookie:\x20BIGipServerpool-ciivise
+SF:-prod\.cegedim\.cloud-HTTP=!SCbCEc\+b2cze9KtWDPlD0yXzT0UGhnasRLlMs\+XI1
+SF:mViw2jMbfKloUVbWWfc0DGKeJeOsutMQQflb7k5npsv1nEtzHtj;\x20path=/;\x20Http
+SF:only;\x20Secure\r\nSet-Cookie:\x20TS01ac8ac8=01352d38113165fd09207e3efd
+SF:9a9bcc4d324606955d9e668aee2")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\
+SF:x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n
+SF:404\x20ERROR");
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:24:46 2024 -- 1 IP address (1 host up) scanned in 151.05 seconds
