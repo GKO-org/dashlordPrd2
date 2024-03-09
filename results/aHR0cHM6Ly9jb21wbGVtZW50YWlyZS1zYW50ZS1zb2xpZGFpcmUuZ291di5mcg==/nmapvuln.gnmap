@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:37:39 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln complementaire-sante-solidaire.gouv.fr
+Host: 213.186.33.40 (cluster011.ovh.net)	Status: Up
+Host: 213.186.33.40 (cluster011.ovh.net)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
+# Nmap done at Sat Mar  9 14:38:04 2024 -- 1 IP address (1 host up) scanned in 24.27 seconds
