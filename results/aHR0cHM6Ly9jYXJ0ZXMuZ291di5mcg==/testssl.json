@@ -206,7 +206,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "321 >= 60 days"
+              "finding"      : "319 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -465,7 +465,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709992437"
+              "finding"      : "1710185233"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1035,6 +1035,6 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "87"
+              "finding"      : "54"
           }
 ]
