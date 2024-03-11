@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sat Mar  9 14:28:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
+# Nmap 7.92 scan initiated Mon Mar 11 19:44:48 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
 Nmap scan report for cnaop.gouv.fr (185.194.82.142)
-Host is up (0.15s latency).
+Host is up (0.081s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
 80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
@@ -26,18 +26,18 @@ PORT    STATE  SERVICE    VERSION
 |     Content-Length: 9
 |_    ERROR
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC7226%P=x86_64-alpine-linux-
-SF:musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authentic
-SF:ate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length:\
-SF:x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbid
-SF:den\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n403\x20ERROR
-SF:")%r(FourOhFourRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Auth
-SF:enticate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Len
-SF:gth:\x209\r\n\r\n401\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x20400\x20B
-SF:ad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n40
-SF:0\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nCon
-SF:nection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/11%Time=65EF5F44%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenti
+SF:cate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length:
+SF:\x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbi
+SF:dden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n403\x20ERRO
+SF:R")%r(FourOhFourRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Aut
+SF:henticate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Le
+SF:ngth:\x209\r\n\r\n401\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x20400\x20
+SF:Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n4
+SF:00\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nCo
+SF:nnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Mar  9 14:31:10 2024 -- 1 IP address (1 host up) scanned in 159.54 seconds
+# Nmap done at Mon Mar 11 19:47:23 2024 -- 1 IP address (1 host up) scanned in 155.19 seconds
