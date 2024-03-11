@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cantal.gouv.fr</pre>
-<p class="lead">Sat Mar  9 13:50:19 2024 – Sat Mar  9 13:50:57 2024<br>1 hosts scanned.
+<p class="lead">Mon Mar 11 19:25:51 2024 – Mon Mar 11 19:26:30 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -126,7 +126,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 13:50:34 GMT
+    date: Mon, 11 Mar 2024 19:26:07 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -140,7 +140,7 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 13:50:33 GMT
+    date: Mon, 11 Mar 2024 19:26:06 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -159,7 +159,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 09 Mar 2024 13:50:33 GMT
+    date: Mon, 11 Mar 2024 19:26:07 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -183,53 +183,56 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 13:50:40 GMT
+    date: Mon, 11 Mar 2024 19:26:13 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 13:50:39 GMT
+    date: Mon, 11 Mar 2024 19:26:12 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
   HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 13:50:40 GMT
+    date: Mon, 11 Mar 2024 19:26:13 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
+  RPCCheck, tor-versions: 
+    HTTP/1.0 400 Bad request
+    cache-control: no-cache
+    content-type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 09 Mar 2024 13:50:46 GMT
+    date: Mon, 11 Mar 2024 19:26:19 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -241,14 +244,9 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  tor-versions: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;</pre>
+<h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 </tbody>
 </table></div>
