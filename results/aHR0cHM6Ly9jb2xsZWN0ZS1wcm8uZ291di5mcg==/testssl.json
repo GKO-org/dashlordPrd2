@@ -339,7 +339,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "213 >= 60 days"
+              "finding"      : "211 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709994978"
+              "finding"      : "1710186668"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -584,7 +584,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "style-src 'self' 'unsafe-inline'; default-src 'self' 'frame-src youtube.com www.youtube.com;'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; img-src 'self' https:"
+              "finding"      : "default-src 'self' 'frame-src youtube.com www.youtube.com;'; style-src 'self' 'unsafe-inline'; img-src 'self' https:; script-src 'self' 'unsafe-eval' 'unsafe-inline'"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1112,6 +1112,6 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "77"
+              "finding"      : "80"
           }
 ]

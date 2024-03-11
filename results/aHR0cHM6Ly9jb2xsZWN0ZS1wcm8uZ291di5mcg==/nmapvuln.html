@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln collecte-pro.gouv.fr</pre>
-<p class="lead">Sat Mar  9 14:37:17 2024 – Sat Mar  9 14:39:46 2024<br>1 hosts scanned.
+<p class="lead">Mon Mar 11 19:52:07 2024 – Mon Mar 11 19:54:38 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -153,12 +153,45 @@
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
-<td title="Version">1.14.2</td>
+<td title="Service">https</td>
+<td title="Product"></td>
+<td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx:1.14.2">cpe:/a:igor_sysoev:nginx:1.14.2</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.0 404 Not Found
+    Connection: close
+    Content-Length: 9
+    ERROR
+  GetRequest: 
+    HTTP/1.1 200 OK
+    Date: Mon, 11 Mar 2024 19:52:27 GMT
+    Content-Type: text/html
+    Content-Length: 8164
+    Last-Modified: Thu, 09 Jun 2022 08:09:18 GMT
+    Connection: close
+    ETag: "62a1aaae-1fe4"
+    Accept-Ranges: bytes
+    Set-Cookie: BIGipServerpool-ecollecte-prod.cegedim.cloud-HTTP=!J4S6csItUx+LeG5WDPlD0yXzT0UGhg5NQPrx0GHDDdT2ZaFL4/NEwzoh+5waBbYWK1ldLkgL2o7EDZ4mEQEG/iPaVcRO; path=/; Httponly; Secure
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    &lt;!DOCTYPE html&gt;
+    &lt;html dir="ltr" lang="fr"&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;meta http-equiv="Content-Language" content="fr"&gt;
+    &lt;meta name="msapplication-TileColor" conte
+  HTTPOptions: 
+    HTTP/1.0 405 Method Not Allowed
+    Connection: close
+    Content-Length: 9
+    ERROR</pre>
+</td></tr>
 </tbody>
 </table></div>
 </div>
@@ -190,10 +223,10 @@
 <td>185.194.82.232 - collecte-pro.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
-<td>1.14.2</td>
-<td>cpe:/a:igor_sysoev:nginx:1.14.2</td>
+<td>https</td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
