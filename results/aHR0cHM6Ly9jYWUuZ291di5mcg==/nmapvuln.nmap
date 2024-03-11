@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sat Mar  9 13:45:54 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cae.gouv.fr
+# Nmap 7.92 scan initiated Mon Mar 11 19:21:53 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cae.gouv.fr
 Nmap scan report for cae.gouv.fr (217.70.184.38)
-Host is up (0.080s latency).
+Host is up (0.082s latency).
 rDNS record for 217.70.184.38: webredir.vip.gandi.net
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE  SERVICE VERSION
@@ -8,4 +8,4 @@ PORT    STATE  SERVICE VERSION
 443/tcp closed https
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Mar  9 13:46:07 2024 -- 1 IP address (1 host up) scanned in 13.29 seconds
+# Nmap done at Mon Mar 11 19:22:06 2024 -- 1 IP address (1 host up) scanned in 13.50 seconds
