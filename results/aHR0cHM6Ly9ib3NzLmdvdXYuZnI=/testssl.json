@@ -339,7 +339,7 @@
               "ip"           : "boss.gouv.fr/91.209.25.94",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "367 >= 60 days"
+              "finding"      : "365 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "boss.gouv.fr/91.209.25.94",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709991475"
+              "finding"      : "1710184490"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1063,6 +1063,6 @@
               "ip"           : "boss.gouv.fr/91.209.25.94",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "101"
+              "finding"      : "139"
           }
 ]
