@@ -542,7 +542,7 @@
               "ip"           : "cigeo.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710186080"
+              "finding"      : "1710243723"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1105,6 +1105,6 @@
               "ip"           : "cigeo.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "101"
           }
 ]
