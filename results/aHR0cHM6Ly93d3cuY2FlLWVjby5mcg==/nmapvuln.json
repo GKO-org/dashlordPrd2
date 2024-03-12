@@ -1,0 +1,1 @@
+{"host":"www.cae-eco.fr","protocol":"tcp","closed_ports":"998","open_ports":[{"service":{"name":"http","id":"80","vulnerabilities":[]}},{"service":{"name":"https","product":"Microsoft-IIS/10.0","id":"443","vulnerabilities":[]}}],"grade":"A"}
