@@ -346,7 +346,7 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "79 >= 60 days"
+              "finding"      : "78 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710181143"
+              "finding"      : "1710241498"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -577,7 +577,7 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-a4afc498-8c8b-4b18-ab95-6b52f49b8873';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
+              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-39b4157c-28fd-4aed-92b6-b6160cb9e190';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
           }
 ,         {
               "id"           : "Permissions-Policy",
