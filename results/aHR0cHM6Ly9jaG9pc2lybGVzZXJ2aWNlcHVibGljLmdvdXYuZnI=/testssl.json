@@ -213,7 +213,7 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -353,7 +353,7 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "49 >= 30 days"
+              "finding"      : "48 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,14 +549,14 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "-3 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710185822"
+              "finding"      : "1710243490"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1175,6 +1175,6 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "65"
+              "finding"      : "67"
           }
 ]
