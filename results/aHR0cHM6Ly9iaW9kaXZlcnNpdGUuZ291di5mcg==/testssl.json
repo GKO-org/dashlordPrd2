@@ -346,7 +346,7 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "326 >= 60 days"
+              "finding"      : "325 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710181633"
+              "finding"      : "1710241899"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1133,6 +1133,6 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "66"
           }
 ]
