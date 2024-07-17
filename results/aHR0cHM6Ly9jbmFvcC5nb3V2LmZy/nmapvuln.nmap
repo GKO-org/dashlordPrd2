@@ -1,12 +1,13 @@
-# Nmap 7.92 scan initiated Tue Mar 12 11:46:23 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
+# Nmap 7.92 scan initiated Wed Jul 17 15:11:24 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
 Nmap scan report for cnaop.gouv.fr (185.194.82.142)
-Host is up (0.14s latency).
+Host is up (0.082s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
 80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
 |_http-server-header: BigIP
 113/tcp closed ident
 443/tcp open   ssl/https
+|_http-trane-info: Problem with XML parsing of /evox/about
 | fingerprint-strings: 
 |   FourOhFourRequest, GetRequest: 
 |     HTTP/1.0 401 Unauthorized
@@ -24,9 +25,8 @@ PORT    STATE  SERVICE    VERSION
 |     Connection: close
 |     Content-Length: 9
 |_    ERROR
-|_http-trane-info: Problem with XML parsing of /evox/about
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/12%Time=65F040A6%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697DF30%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenti
 SF:cate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length:
 SF:\x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbi
@@ -40,4 +40,4 @@ SF:nnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Mar 12 11:49:02 2024 -- 1 IP address (1 host up) scanned in 158.69 seconds
+# Nmap done at Wed Jul 17 15:14:00 2024 -- 1 IP address (1 host up) scanned in 155.35 seconds
