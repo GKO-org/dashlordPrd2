@@ -262,7 +262,7 @@
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CA40326BE69FC0303F1335186C8FBD73"
+              "finding"      : "56BBFF81720EF19DD79C30C0D571D009"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "64D39CF50E96DA76A84BF6C2477AB8188C3905BB"
+              "finding"      : "1979500056CFAA1B5A5D19B231CFDE6A4A8C2B44"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7D6FE76573A5499EFE4C2A84705326E1EC218C335E0CABC1AF0708219ED544EB"
+              "finding"      : "4C664FE75D21D0DAB06938B23651DBBB821845583D903E47FDBFA945EC51CBAF"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "cantal.gouv.fr www.cantal.gouv.fr"
+              "finding"      : "www.cantal.gouv.fr cantal.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (42)"
+              "severity"     : "OK",
+              "finding"      : "239 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-04-24 22:00"
+              "finding"      : "2024-03-13 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-04-23 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-03-13 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,7 +381,7 @@
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,7 +500,7 @@
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710242903"
+              "finding"      : "1721228011"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7D6FE76573A5499EFE4C2A84705326E1EC218C335E0CABC1AF0708219ED544EB"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4C664FE75D21D0DAB06938B23651DBBB821845583D903E47FDBFA945EC51CBAF"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "cantal.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "52"
+              "finding"      : "103"
           }
 ]
