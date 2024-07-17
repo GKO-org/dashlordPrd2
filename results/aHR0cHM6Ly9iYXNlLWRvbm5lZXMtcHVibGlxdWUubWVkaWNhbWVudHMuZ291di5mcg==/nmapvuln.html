@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln base-donnees-publique.medicaments.gouv.fr</pre>
-<p class="lead">Tue Mar 12 11:07:33 2024 – Tue Mar 12 11:07:56 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 14:31:14 2024 – Wed Jul 17 14:33:14 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>46.19.124.237</td>
+<td>217.115.174.72</td>
 <td>base-donnees-publique.medicaments.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#46-19-124-237"><h3 class="panel-title">46.19.124.237 - base-donnees-publique.medicaments.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="46-19-124-237">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#217-115-174-72"><h3 class="panel-title">217.115.174.72 - base-donnees-publique.medicaments.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="217-115-174-72">
 <h4>Hostnames</h4>
 <ul>
 <li>base-donnees-publique.medicaments.gouv.fr (user)</li>
-<li>prod3-afssaps-marche2017.integra.fr (PTR)</li>
+<li>prod2-fw-afssaps-dimedia.integra.fr (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -115,26 +115,124 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">Apache httpd</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.0 403 Forbidden
+    Date: Wed, 17 Jul 2024 14:31:32 GMT
+    Content-Length: 199
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;403 Forbidden&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Forbidden&lt;/h1&gt;
+    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.0 403 Forbidden
+    Date: Wed, 17 Jul 2024 14:31:27 GMT
+    Content-Length: 199
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;403 Forbidden&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Forbidden&lt;/h1&gt;
+    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  Help: 
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 14:31:53 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  RTSPRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 14:31:27 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">Apache httpd</td>
+<td title="Service">https</td>
+<td title="Product">Unknown</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Unknown</pre>
+<h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 14:31:36 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 14:31:33 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  RTSPRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 14:31:46 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -154,23 +252,23 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>46.19.124.237 - base-donnees-publique.medicaments.gouv.fr</td>
+<td>217.115.174.72 - base-donnees-publique.medicaments.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>Apache httpd</td>
 <td></td>
-<td>cpe:/a:apache:http_server</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
-<td>46.19.124.237 - base-donnees-publique.medicaments.gouv.fr</td>
+<td>217.115.174.72 - base-donnees-publique.medicaments.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>Apache httpd</td>
+<td>https</td>
+<td>Unknown</td>
 <td></td>
-<td>cpe:/a:apache:http_server</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
