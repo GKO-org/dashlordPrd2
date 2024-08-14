@@ -339,7 +339,7 @@
               "ip"           : "cnaop.gouv.fr/185.194.82.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "325 >= 60 days"
+              "finding"      : "297 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "cnaop.gouv.fr/185.194.82.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721229038"
+              "finding"      : "1723640610"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "cnaop.gouv.fr/185.194.82.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66"
+              "finding"      : "123"
           }
 ]
