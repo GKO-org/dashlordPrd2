@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "82 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (54)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-10-07 21:59"
           }
 ,         {
@@ -500,7 +500,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721229334"
+              "finding"      : "1723641039"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -584,7 +584,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self' 'frame-src youtube.com www.youtube.com;'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https:"
+              "finding"      : "style-src 'self' 'unsafe-inline' https://static.piste.gouv.fr; img-src 'self' https:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://code.jquery.com; default-src 'self' 'frame-src youtube.com www.youtube.com;'"
           }
 ,         {
               "id"           : "Referrer-Policy",
@@ -1105,6 +1105,6 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "49"
+              "finding"      : "91"
           }
 ]
