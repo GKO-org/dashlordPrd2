@@ -346,7 +346,7 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "197 >= 60 days"
+              "finding"      : "169 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721226902"
+              "finding"      : "1723638338"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -559,25 +559,11 @@
               "finding"      : "0 at '/'"
           }
 ,         {
-              "id"           : "X-Frame-Options_multiple",
-              "ip"           : "biodiversite.gouv.fr/54.36.182.120",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Frame-Options headers. Using first header: SAMEORIGIN"
-          }
-,         {
               "id"           : "X-Frame-Options",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options_multiple",
-              "ip"           : "biodiversite.gouv.fr/54.36.182.120",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Content-Type-Options headers. Using first header: nosniff"
           }
 ,         {
               "id"           : "X-Content-Type-Options",
@@ -1133,6 +1119,6 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "106"
           }
 ]
