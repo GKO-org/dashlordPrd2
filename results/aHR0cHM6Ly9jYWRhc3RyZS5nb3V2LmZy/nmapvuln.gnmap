@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jul 17 14:44:32 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cadastre.gouv.fr
+# Nmap 7.92 scan initiated Wed Aug 14 12:34:57 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cadastre.gouv.fr
 Host: 145.242.11.58 (inspire.cadastre.gouv.fr)	Status: Up
 Host: 145.242.11.58 (inspire.cadastre.gouv.fr)	Ports: 80/open/tcp//http//Apache httpd/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
-# Nmap done at Wed Jul 17 14:44:54 2024 -- 1 IP address (1 host up) scanned in 22.41 seconds
+# Nmap done at Wed Aug 14 12:35:18 2024 -- 1 IP address (1 host up) scanned in 20.88 seconds
