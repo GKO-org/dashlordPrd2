@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jul 17 15:04:47 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln choisirleservicepublic.gouv.fr
+# Nmap 7.92 scan initiated Wed Aug 14 12:56:57 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln choisirleservicepublic.gouv.fr
 Host: 54.38.250.204 (lonsdale-biep-lb.ovh.bearstech.com)	Status: Up
 Host: 54.38.250.204 (lonsdale-biep-lb.ovh.bearstech.com)	Ports: 80/open/tcp//http//Apache httpd 2/, 443/open/tcp//ssl|http//Apache httpd 2/	Ignored State: filtered (998)
-# Nmap done at Wed Jul 17 15:05:19 2024 -- 1 IP address (1 host up) scanned in 31.94 seconds
+# Nmap done at Wed Aug 14 12:57:27 2024 -- 1 IP address (1 host up) scanned in 30.60 seconds
