@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Wed Jul 17 14:37:48 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.bison-fute.gouv.fr
-Nmap scan report for www.bison-fute.gouv.fr (194.5.170.185)
-Host is up (0.12s latency).
+# Nmap 7.92 scan initiated Wed Aug 14 12:25:37 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.bison-fute.gouv.fr
+Nmap scan report for www.bison-fute.gouv.fr (194.5.170.168)
+Host is up (0.098s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE  VERSION
 80/tcp  open   http     Apache httpd
@@ -10,4 +10,4 @@ PORT    STATE  SERVICE  VERSION
 |_http-server-header: Apache
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jul 17 14:38:14 2024 -- 1 IP address (1 host up) scanned in 25.92 seconds
+# Nmap done at Wed Aug 14 12:26:05 2024 -- 1 IP address (1 host up) scanned in 28.56 seconds
