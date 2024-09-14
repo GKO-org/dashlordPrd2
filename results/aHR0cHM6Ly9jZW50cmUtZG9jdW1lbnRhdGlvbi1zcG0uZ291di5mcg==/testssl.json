@@ -346,7 +346,7 @@
               "ip"           : "centre-documentation-spm.gouv.fr/195.154.54.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "187 >= 60 days"
+              "finding"      : "156 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "centre-documentation-spm.gouv.fr/195.154.54.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-5 seconds from localtime"
+              "finding"      : "-7 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "centre-documentation-spm.gouv.fr/195.154.54.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723639721"
+              "finding"      : "1726318115"
           }
 ,         {
               "id"           : "HSTS",
@@ -1063,6 +1063,6 @@
               "ip"           : "centre-documentation-spm.gouv.fr/195.154.54.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "124"
+              "finding"      : "94"
           }
 ]
