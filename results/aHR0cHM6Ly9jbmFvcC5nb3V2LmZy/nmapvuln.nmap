@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Wed Aug 14 13:04:51 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 13:03:06 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
 Nmap scan report for cnaop.gouv.fr (185.194.82.142)
-Host is up (0.15s latency).
+Host is up (0.080s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
 80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
@@ -26,7 +26,7 @@ PORT    STATE  SERVICE    VERSION
 |     Content-Length: 9
 |_    ERROR
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=8/14%Time=66BCAB8A%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/14%Time=66E5899E%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenti
 SF:cate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length:
 SF:\x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbi
@@ -40,4 +40,4 @@ SF:nnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Aug 14 13:07:37 2024 -- 1 IP address (1 host up) scanned in 165.99 seconds
+# Nmap done at Sat Sep 14 13:05:36 2024 -- 1 IP address (1 host up) scanned in 149.85 seconds
