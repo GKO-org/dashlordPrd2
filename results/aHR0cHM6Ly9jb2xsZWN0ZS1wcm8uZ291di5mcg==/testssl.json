@@ -240,8 +240,8 @@
               "id"           : "cert_keySize",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "RSA 2048 bits (exponent is 65537)"
+              "severity"     : "OK",
+              "finding"      : "RSA 3072 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
@@ -262,7 +262,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7EF26195BC3B51C2289D3B3C38A3D132"
+              "finding"      : "CC898C43C35D34CDAAAAB9CBBAEE009C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B5C7D8D9DE239165763D4F454F7A8621B8EAD651"
+              "finding"      : "8A6C0FE93997A06C6D1C71B68988D9ABB2302806"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "401351D1DD5E0619A1208E18114FE6007D07401A35F7641DA9E3F7CFA43C80DE"
+              "finding"      : "5B8C3B17CB93CB5D678F2697F50B6B8DD446B4B1175B2F3387E29016F3CAEECA"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIKbzCCCFegAwIBAgIRAMyJjEPDXTTNqqq5y7ruAJwwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MDkwNDIyMDAwMFoXDTI1MTAwNjIxNTk1OVowgZQxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzFBMD8GA1UECgw4U0VDUkVUQVJJQVQgR0VORVJBTCBNSU5JU1RFUkVTIENIQVJHRVMgQUZGQUlSRVMgU09DSUFMRVMxHTAbBgNVBAMMFGNvbGxlY3RlLXByby5nb3V2LmZyMRMwEQYDVQQFEwpTMzIwNzIxMDgxMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAs0vat2CWmgHSIVFeFpVyB+fQIPHJwBDU/CD34n5K+r5prCY/Ewkdfsd69h6xMaj435Yh8e2RWWhyLxa6GOnuhRs2iKhHRQJLPJ4hUXekUdcFpcDUy5IssK7nD4YP98mcYLHiEML2j2m5RNZfnfrO3BRDBib6pExrJVTSSUFKTefGg6WyIKE41Giedg4feacWJ7eqBXAEfUYtlpisBbZie0xTEedIl0Wwx3KQ6Aak9szEi6XlxpnJ3sah74X+qsysRtxcPM/AJn7jGAbH/RDqHYr6gp6gnJrMjA4W+tKa5Ox4bwWLaXOBmVQ0ayy6YSOefiP2ekDS5MYCZiJliDLQph7zD5oww+PyRVR90AsKCosecycVSgW0ZUft7rIjbZVCp+wnmYeC58DrKcmlQ7GmSWAY1NYSbx/rlV+SvpWdihZrGnhHGH3fG9yDC9osWLbZrhoPOcVrzbobIc8zWKIa4w2l05KpKHmHeaIP9hdVgUQPLNPX9bhPSWGsQwvqa2oZAgMBAAGjggVQMIIFTDCB5AYIKwYBBQUHAQEEgdcwgdQwOAYIKwYBBQUHMAKGLGh0dHA6Ly9hdXRvcml0ZS5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuZGVyMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEuZnIvc2VydmljZXNjYS5kZXIwLgYIKwYBBQUHMAGGImh0dHA6Ly9zZXJ2aWNlc2NhLm9jc3AuY2VydGlnbmEuZnIwMAYIKwYBBQUHMAGGJGh0dHA6Ly9zZXJ2aWNlc2NhLm9jc3AuZGhpbXlvdGlzLmNvbTAfBgNVHSMEGDAWgBSs7IaPSzccuH8XGxnQruhO4zRcEjAMBgNVHRMBAf8EAjAAMGEGA1UdIARaMFgwCAYGZ4EMAQICMEwGCyqBegGBMQIFAQECMD0wOwYIKwYBBQUHAgEWL2h0dHBzOi8vd3d3LmNlcnRpZ25hLmNvbS9hdXRvcml0ZS1jZXJ0aWZpY2F0aW9uMGUGA1UdHwReMFwwLaAroCmGJ2h0dHA6Ly9jcmwuZGhpbXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmNybDAroCmgJ4YlaHR0cDovL2NybC5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmNybDATBgNVHSUEDDAKBggrBgEFBQcDATAOBgNVHQ8BAf8EBAMCBaAwggErBgNVHREEggEiMIIBHoIZY29sbGVjdGUtcHJvLmlnYXMuZ291di5mcoIUY29sbGVjdGUtcHJvLmdvdXYuZnKCGWRlbW8uY29sbGVjdGUtcHJvLmdvdXYuZnKCF2UtY29sbGVjdGUuaWdhcy5nb3V2LmZyght3d3cuZS1jb2xsZWN0ZS5pZ2FzLmdvdXYuZnKCHXd3dy5kZW1vLmNvbGxlY3RlLXByby5nb3V2LmZygiJ3d3cuZm9ybWF0aW9uLmNvbGxlY3RlLXByby5nb3V2LmZygh5mb3JtYXRpb24uY29sbGVjdGUtcHJvLmdvdXYuZnKCHXd3dy5jb2xsZWN0ZS1wcm8uaWdhcy5nb3V2LmZyghh3d3cuY29sbGVjdGUtcHJvLmdvdXYuZnIwHQYDVR0OBBYEFNe0nN0PE+43peyjC48rBqVK0N5nMIIB9QYKKwYBBAHWeQIEAgSCAeUEggHhAd8AdQAN4fIwK9MNwUBiEgnqVS78R3R8sdfpMO8OQh60fk6qNAAAAZHBJX+EAAAEAwBGMEQCIHKZJGqIZKOM8b4RlzqrDHVkVFO7CQ68HTTjfxkkJmZiAiAO7DpvkDC4FY/RB4079VKoo6PuqpJdUwo8lmf2Z+esiAB2AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABkcElfYgAAAQDAEcwRQIge/ELTB9vq9Qp3FHZDYo/r5CQoEpQ0BG2P/ATc41cnHwCIQCEDn/B13VDCQ4/5Oh1SHtP1m/sA9bNqmW4arR7n6evVAB2AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocyHf0eN45QAAABkcElf2UAAAQDAEcwRQIhAJX/BXfFoUzO/81u9FlgDOTnYJ+ncgKNFl+xk2H0swviAiBs4HqQO7GvDJHq7ZnaXLn3xeGp52GNGG4sKA8LbeieJwB2AK8YGijWjKPgqYpMnGerCfi7vCK6rryxOKOhndP5tgMNAAABkcElfecAAAQDAEcwRQIhALffZm75NEWt6BwgcXYdhkw9l1ZWd3iCleOyPXoHsL0KAiBgIaBPVvIYzwsaRSBvle6V3rLXxZlZV22dGjE4Je6NtDANBgkqhkiG9w0BAQsFAAOCAgEAqTAYJYVluUOTLKWxzCFV67vR4QGUzSdJwK/NS3UBtwF/jWSVVIzn7cMcPQozTxd7kzlWUUwKwElf71wZUGpgbem5GsWWbp6/0ZDUBNFZBMo3DCbof92zapI4u3qzMys8MHp+JgPQ5W+EMTAOBfsFiumqezvSheVrii8yuhQSZn9KRDB8mhjNHvopoNmRg48ZoVygeL/BDDN019zOX9GOwFUHll5qEiqH50OucZPylWwMJojv/KpvVRvJvqGhnW83TjiyPJWa9kRVDGFd98ITpLJYJY8op1awbnLWIcq1UfOFQspuy9/wlcCzIBw038+x7Oh77u1O8yJXn1tcCCPoecAaNOAhOQXpICnrrKeCwb7w7qxlsa6qM7bSBVqcCZwigydbOY0Bet206YglNsN+JlNCS2oFP/ss6QbPQYdcdLY/7g+k9SpasMdY15uO6nZ7UgN9hObddN/4Xy6PFcdBkqM0NEidfjMqVIrpgtmwIV08/lZIlSpAWyOiwYy+E670kqkPv4wQ8P2vTDUd99aBKwB/VGLN47ykiEXg0LM/SU+LLs0DlFxn6Xi9QyfGwC7f27o31e5ZctkocvK+OHm5kb7dknUgGSeyD/KikyJz5qu7oopFSlZY7KS60YO4U+AuhBpUrdYMXcRrttMAYRXiKT+HuyJ5KL4zi4WR4EPzy7U=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "collecte-pro.gouv.fr formation.collecte-pro.gouv.fr e-collecte.igas.gouv.fr www.collecte-pro.igas.gouv.fr www.demo.collecte-pro.gouv.fr collecte-pro.igas.gouv.fr demo.collecte-pro.gouv.fr www.e-collecte.igas.gouv.fr www.collecte-pro.gouv.fr www.formation.collecte-pro.gouv.fr"
+              "finding"      : "collecte-pro.igas.gouv.fr collecte-pro.gouv.fr demo.collecte-pro.gouv.fr e-collecte.igas.gouv.fr www.e-collecte.igas.gouv.fr www.demo.collecte-pro.gouv.fr www.formation.collecte-pro.gouv.fr formation.collecte-pro.gouv.fr www.collecte-pro.igas.gouv.fr www.collecte-pro.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (54)"
+              "severity"     : "OK",
+              "finding"      : "387 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-25 23:00"
+              "finding"      : "2024-09-04 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-10-07 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-06 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723641039"
+              "finding"      : "1726319270"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -584,7 +584,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "style-src 'self' 'unsafe-inline' https://static.piste.gouv.fr; img-src 'self' https:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://code.jquery.com; default-src 'self' 'frame-src youtube.com www.youtube.com;'"
+              "finding"      : "style-src 'self' 'unsafe-inline' https://static.piste.gouv.fr; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://code.jquery.com; img-src 'self' https:; default-src 'self' 'frame-src youtube.com www.youtube.com;'"
           }
 ,         {
               "id"           : "Referrer-Policy",
@@ -729,7 +729,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=401351D1DD5E0619A1208E18114FE6007D07401A35F7641DA9E3F7CFA43C80DE"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=5B8C3B17CB93CB5D678F2697F50B6B8DD446B4B1175B2F3387E29016F3CAEECA"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1105,6 +1105,6 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "91"
+              "finding"      : "49"
           }
 ]
