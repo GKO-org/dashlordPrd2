@@ -199,7 +199,7 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -346,7 +346,7 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "230 >= 60 days"
+              "finding"      : "200 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-2 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726316107"
+              "finding"      : "1728908247"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -577,7 +577,7 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline' https://genii-script.tolk.ai https://fonts.googleapis.com;script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr https://gva.et-gv.fr https://genii-script.tolk.ai 'nonce-82531beb-bf75-4375-a0e7-a4bf5a659241';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
+              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline' https://genii-script.tolk.ai https://fonts.googleapis.com;script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr https://gva.et-gv.fr https://genii-script.tolk.ai 'nonce-6f912058-077b-4f22-b656-63f6eb61217e';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -1105,6 +1105,6 @@
               "ip"           : "autoecole.ants.gouv.fr/66.22.32.215",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "113"
+              "finding"      : "72"
           }
 ]
