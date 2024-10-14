@@ -206,7 +206,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "131 >= 60 days"
+              "finding"      : "101 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -465,7 +465,15 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726317979"
+              "finding"      : "1728910411"
+          }
+,         {
+              "id"           : "ipv4_in_header",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cwe"          : "CWE-212",
+              "finding"      : "Set-Cookie: SESSIONSTICK=1728910412.55.64.573871|350e2b4357cb7f1e2b5929a4469e3532; Expires=Wed, 16-Oct-24 12:53:31 GMT; Max-Age=172800; Path=/; Secure; HttpOnly (check if it's your IP address or e.g. a cluster IP)"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1049,6 +1057,6 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "55"
           }
 ]
