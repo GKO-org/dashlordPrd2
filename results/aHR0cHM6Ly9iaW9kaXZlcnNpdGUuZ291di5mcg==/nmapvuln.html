@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln biodiversite.gouv.fr</pre>
-<p class="lead">Sat Sep 14 12:26:57 2024 – Sat Sep 14 12:27:29 2024<br>1 hosts scanned.
+<p class="lead">Mon Oct 14 12:27:55 2024 – Mon Oct 14 12:28:42 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -114,17 +114,36 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
+<td title="Service">http</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 403 Forbidden
+    Date: Mon, 14 Oct 2024 12:28:12 GMT
+    Content-Type: text/html
+    Content-Length: 13869
+    Connection: close
+    Vary: Accept-Encoding
+    WWW-Authenticate: Basic realm="Ecedi access restrictions"
+    cache-control: no-cache
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+    &lt;title&gt;CrowdSec Ban&lt;/title&gt;
+    &lt;meta content="text/html; charset=utf-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;style&gt;/*! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:""}html{-webkit-text-size-adjust:100%;font-feature-settings:normal;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;-moz-tab-size:4;-o-tab-</pre>
+</td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
+<td title="Service">https</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
@@ -151,7 +170,7 @@
 <td>54.36.182.120 - biodiversite.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>tcpwrapped</td>
+<td>http</td>
 <td></td>
 <td></td>
 <td></td>
@@ -161,7 +180,7 @@
 <td>54.36.182.120 - biodiversite.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>tcpwrapped</td>
+<td>https</td>
 <td></td>
 <td></td>
 <td></td>
