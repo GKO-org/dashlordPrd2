@@ -1,1 +1,4 @@
-# Nmap 7.92 scan initiated Sat Sep 14 13:04:01 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnig.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 13:16:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnig.gouv.fr
+Host: 194.5.170.186 ()	Status: Up
+Host: 194.5.170.186 ()	Ports: 80/open/tcp//http//Apache httpd/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd/, 631/closed/tcp//ipp///, 903/closed/tcp//iss-console-mgr///, 2002/closed/tcp//globe///, 2010/closed/tcp//search///, 2522/closed/tcp//windb///, 2909/closed/tcp//funk-dialout///, 3546/closed/tcp//unknown///, 5080/closed/tcp//onscreen///, 6667/closed/tcp//irc///, 8045/closed/tcp//unknown///, 8500/closed/tcp//fmtp///, 9081/closed/tcp//cisco-aqos///, 9099/closed/tcp//unknown///, 19780/closed/tcp//unknown///, 32769/closed/tcp//filenet-rpc///, 32779/closed/tcp//sometimes-rpc21///, 49157/closed/tcp//unknown///, 50300/closed/tcp//unknown///, 50389/closed/tcp//unknown///	Ignored State: filtered (978)
+# Nmap done at Mon Oct 14 13:26:17 2024 -- 1 IP address (1 host up) scanned in 561.75 seconds
