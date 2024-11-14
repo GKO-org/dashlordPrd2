@@ -262,7 +262,7 @@
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A68386DBB2E8201123D1363A596B1A2C"
+              "finding"      : "27A3B3E0AC6D5F45F86DEA29E6AAA19A"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0FDF3AF2149CDEC35B967B42D050111F44558CCA"
+              "finding"      : "0448B15293B61837B710C55856C3BDF5D8AC343B"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F57636A75B79C0543A27ADA833FB72B2A9F87400CEF245419CD5BFB3AF380F5A"
+              "finding"      : "0AC4F1FC32E17F88BD1CC01506357E1405C8341AC12604C279EB023C5D32B90B"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.bas-rhin.gouv.fr bas-rhin.gouv.fr"
+              "finding"      : "bas-rhin.gouv.fr www.bas-rhin.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "79 >= 60 days"
+              "finding"      : "362 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-21 23:00"
+              "finding"      : "2024-11-11 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-01-01 22:59"
+              "finding"      : "2025-11-11 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,14 +500,14 @@
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728908531"
+              "finding"      : "1731586963"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds"
+              "finding"      : "1 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -557,7 +557,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cache: Miss"
+              "finding"      : "x-cache: Hit"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F57636A75B79C0543A27ADA833FB72B2A9F87400CEF245419CD5BFB3AF380F5A"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0AC4F1FC32E17F88BD1CC01506357E1405C8341AC12604C279EB023C5D32B90B"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "bas-rhin.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "60"
           }
 ]
