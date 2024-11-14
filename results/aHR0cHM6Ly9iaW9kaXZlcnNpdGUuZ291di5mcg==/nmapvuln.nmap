@@ -1,13 +1,13 @@
-# Nmap 7.92 scan initiated Mon Oct 14 12:27:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln biodiversite.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 12:27:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln biodiversite.gouv.fr
 Nmap scan report for biodiversite.gouv.fr (54.36.182.120)
-Host is up (0.15s latency).
+Host is up (0.085s latency).
 Not shown: 998 filtered tcp ports (no-response)
-PORT    STATE SERVICE    VERSION
+PORT    STATE SERVICE VERSION
 80/tcp  open  http
 | fingerprint-strings: 
-|   GetRequest, HTTPOptions: 
+|   GetRequest: 
 |     HTTP/1.1 403 Forbidden
-|     Date: Mon, 14 Oct 2024 12:28:12 GMT
+|     Date: Thu, 14 Nov 2024 12:27:24 GMT
 |     Content-Type: text/html
 |     Content-Length: 13869
 |     Connection: close
@@ -21,11 +21,11 @@ PORT    STATE SERVICE    VERSION
 |     <meta content="text/html; charset=utf-8" />
 |     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 |_    <style>/*! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:""}html{-webkit-text-size-adjust:100%;font-feature-settings:normal;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;-moz-tab-size:4;-o-tab-
-443/tcp open  ssl/https?
+443/tcp open  https?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D0E5C%P=x86_64-alpine-linux-musl%
-SF:r(GetRequest,1BE4,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Mon,\x2014
-SF:\x20Oct\x202024\x2012:28:12\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735ECAC%P=x86_64-alpine-linux-musl%
+SF:r(GetRequest,2CA0,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu,\x2014
+SF:\x20Nov\x202024\x2012:27:24\x20GMT\r\nContent-Type:\x20text/html\r\nCon
 SF:tent-Length:\x2013869\r\nConnection:\x20close\r\nVary:\x20Accept-Encodi
 SF:ng\r\nWWW-Authenticate:\x20Basic\x20realm=\"Ecedi\x20access\x20restrict
 SF:ions\"\r\ncache-control:\x20no-cache\r\n\r\n<!DOCTYPE\x20html>\n<html\x
@@ -40,23 +40,7 @@ SF:e-adjust:100%;font-feature-settings:normal;font-family:ui-sans-serif,sy
 SF:stem-ui,-apple-system,BlinkMacSystemFont,Segoe\x20UI,Roboto,Helvetica\x
 SF:20Neue,Arial,Noto\x20Sans,sans-serif,Apple\x20Color\x20Emoji,Segoe\x20U
 SF:I\x20Emoji,Segoe\x20UI\x20Symbol,Noto\x20Color\x20Emoji;line-height:1\.
-SF:5;-moz-tab-size:4;-o-tab-")%r(HTTPOptions,1650,"HTTP/1\.1\x20403\x20For
-SF:bidden\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:28:12\x20GMT\r\nCont
-SF:ent-Type:\x20text/html\r\nContent-Length:\x2013869\r\nConnection:\x20cl
-SF:ose\r\nVary:\x20Accept-Encoding\r\nWWW-Authenticate:\x20Basic\x20realm=
-SF:\"Ecedi\x20access\x20restrictions\"\r\ncache-control:\x20no-cache\r\n\r
-SF:\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20<head>\n\x20\x20\x
-SF:20\x20<title>CrowdSec\x20Ban</title>\n\x20\x20\x20\x20<meta\x20content=
-SF:\"text/html;\x20charset=utf-8\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"
-SF:viewport\"\x20content=\"width=device-width,\x20initial-scale=1\.0\"\x20
-SF:/>\n\x20\x20\x20\x20<style>/\*!\x20tailwindcss\x20v3\.2\.7\x20\|\x20MIT
-SF:\x20License\x20\|\x20https://tailwindcss\.com\*/\*,:after,:before{borde
-SF:r:0\x20solid\x20#e5e7eb;box-sizing:border-box}:after,:before{--tw-conte
-SF:nt:\"\"}html{-webkit-text-size-adjust:100%;font-feature-settings:normal
-SF:;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,S
-SF:egoe\x20UI,Roboto,Helvetica\x20Neue,Arial,Noto\x20Sans,sans-serif,Apple
-SF:\x20Color\x20Emoji,Segoe\x20UI\x20Emoji,Segoe\x20UI\x20Symbol,Noto\x20C
-SF:olor\x20Emoji;line-height:1\.5;-moz-tab-size:4;-o-tab-");
+SF:5;-moz-tab-size:4;-o-tab-");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 12:28:42 2024 -- 1 IP address (1 host up) scanned in 46.69 seconds
+# Nmap done at Thu Nov 14 12:27:45 2024 -- 1 IP address (1 host up) scanned in 33.71 seconds
