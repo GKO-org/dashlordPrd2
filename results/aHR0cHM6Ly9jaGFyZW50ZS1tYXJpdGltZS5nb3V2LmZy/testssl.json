@@ -262,7 +262,7 @@
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FB5CBAE3C1B80B09538EF1E4A573C53D"
+              "finding"      : "1FA4071FD350A84FC258AD74386DF67E"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54772959D46DEBA5C7C773F7DB5BADF92A5ECB2D"
+              "finding"      : "581DB08887AB5F2191A5AE91AF3626AAB9DADC1B"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "172CC8BA10D54C2C444F511FCD207BFCCA0EA93227599A9DA43786A05F5D3174"
+              "finding"      : "C52A59A917C7D68DB9E3C8DDF1664139E7AA13E6219907BE47D26D54F0CC3BF6"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIdzCCBl+gAwIBAgIRAPtcuuPBuAsJU47x5KVzxT0wDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MDMyMjIzMDAwMFoXDTI0MTAzMDIyNTk1OVowfTELMAkGA1UEBhMCRlIxDjAMBgNVBAcMBVBBUklTMSEwHwYDVQQKDBhNSU5JU1RFUkUgREUgTCBJTlRFUklFVVIxJjAkBgNVBAMMHXd3dy5jaGFyZW50ZS1tYXJpdGltZS5nb3V2LmZyMRMwEQYDVQQFEwpTMzA0MTQyMzU0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimZ0hkWu2EjOC69opP86NWNJyQTpru73eUBSxAjNlfZ+6Jy1BfuLOV50NEWxSYvTDQLfRRYx2APTEcIiIw7aXgsU83oH+t3xV0fsaiPxOcdI1oDbMk89CW7Bcy0diKV4MQxkfFPgLgVbQnoPIBy0W7YpzWsc14mQiTWz3JSmZgoPVfu+yxu7rsq1NQjgEORhtPD461PTcaY0DlGuxSiNQ9O2JgiZQpfukDXO0yLb54XoO1vQlbFmyT/uBKjEdP4aiu/3VbLxzMif4fT1fpymm8Cep+zeKd2xqUvzvK0eDKyTWvi85bGAZkRNICQoubPrCnX0Dy0dN4uoQ0EndDM9UwIDAQABo4ID8DCCA+wwgeQGCCsGAQUFBwEBBIHXMIHUMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEuZnIvc2VydmljZXNjYS5kZXIwOAYIKwYBBQUHMAKGLGh0dHA6Ly9hdXRvcml0ZS5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuZGVyMDAGCCsGAQUFBzABhiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15b3Rpcy5jb20wLgYIKwYBBQUHMAGGImh0dHA6Ly9zZXJ2aWNlc2NhLm9jc3AuY2VydGlnbmEuZnIwHwYDVR0jBBgwFoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwDAYDVR0TAQH/BAIwADBhBgNVHSAEWjBYMAgGBmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsGAQUFBwIBFi9odHRwczovL3d3dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlmaWNhdGlvbjBlBgNVHR8EXjBcMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuY3JsMC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMEMGA1UdEQQ8MDqCGWNoYXJlbnRlLW1hcml0aW1lLmdvdXYuZnKCHXd3dy5jaGFyZW50ZS1tYXJpdGltZS5nb3V2LmZyMB0GA1UdDgQWBBSbrnnDlKR/Y+rMPsPinM74H+tyATCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHcAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhCCp/mZ0xaOnQAAAGOaqg6ZAAABAMASDBGAiEAtu6eSRigiEFTwy/VRcSgLWBt5/idWvlVl2Qp17Pair8CIQDg0DVJp/D8Vi9Eo83GD8V/k2lW5K1cEvrL2oJJ27kWqwB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABjmqoOsIAAAQDAEcwRQIhAIRWjTSi4Em5ONYshA9tt9n+FrkizsgDWSroVOaEB/TmAiAFTEkJquOBvvyr0dgkr/7wmx5eJB50bgIE6xkXFft3iQB2AFWB1MIWkDYBSuoLm1c8U/DA5Dh4cCUIFy+jqh0HE9MMAAABjmqoPJUAAAQDAEcwRQIgAog0GWqFWEzucEi6pf/K4ArjEFlICTm/m/IKWdEACcECIQDhvJNQ75g/XBCYkPwdFDRwMIclNPNItRru2bjSGC/+8TANBgkqhkiG9w0BAQsFAAOCAgEAJXn/UebX4tZ0NW8h/0WBuBwFLVJKk34Bu4qXVvZFgf1Ls8HHXuLlwtpO3+9XpYaLFHqE2+hopnOGmfz+0JbVMviZ+OhmHi+LV0BokWKHr7DCn+X97MoUq/O0UfnpWarlIR3UKsCyDrQxjvfs4cJh7FG5V9xevzP2EUI7fS7wa7P54goPw6eU6HOquCR29QcDw5G0pGck8qVGBqpuJkYJHHvUIwByhrweDiYgO6IelMFHQSVLF1jP93bYRcVqDIzXQpMQyWCtIU+BqjrvdjZYCd5L7TtmJ728+MgZA9C0k1Vi5HTq4AGbWQ9S/Sl6JLRE7bGcNqucwa6TnTcBZvWyN94kOKMwyB8q5qhsK4fmnN9qQk9K20E2jX7UiqMLlwA/+9R52LiFG7BsGaX7CA4voKUTW6JmaovPrCN8BI5WEcLRAVAg2rSdsFcvIEKa0ejxiXbGPxjLdz29xD3sfeY6W30y/FnWiWSODe2kpie7TZBKn7bW2p0VRRJjhyi3Wmvmy95ETt5iOkoqOc3pKcu77b8Gc5wscmRG3jjTeGMlQFtt+HKQT7nqYhF/WEKTDTOy1jF4gTZ0rXqNYMUsYmz1ZPv48v8IkxZ4G0+IwQmNTW7iAyzelemyszTxck6T8oGNkwBKnc+vcPXCshxA0o38SA9Zym+jVvrv9DqbMXU426E=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "charente-maritime.gouv.fr www.charente-maritime.gouv.fr"
+              "finding"      : "www.charente-maritime.gouv.fr charente-maritime.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (16)"
+              "severity"     : "OK",
+              "finding"      : "337 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-22 23:00"
+              "finding"      : "2024-10-17 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-30 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-17 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,14 +500,14 @@
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728910672"
+              "finding"      : "1731588840"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1 seconds"
+              "finding"      : "0 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -557,7 +557,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cache: Hit"
+              "finding"      : "x-cache: Miss"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=172CC8BA10D54C2C444F511FCD207BFCCA0EA93227599A9DA43786A05F5D3174"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C52A59A917C7D68DB9E3C8DDF1664139E7AA13E6219907BE47D26D54F0CC3BF6"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "charente-maritime.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "56"
           }
 ]
