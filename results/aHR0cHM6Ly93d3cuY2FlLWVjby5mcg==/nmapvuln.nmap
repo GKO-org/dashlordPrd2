@@ -1,16 +1,47 @@
-# Nmap 7.92 scan initiated Mon Oct 14 12:48:05 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.cae-eco.fr
+# Nmap 7.92 scan initiated Thu Nov 14 12:43:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.cae-eco.fr
 Nmap scan report for www.cae-eco.fr (13.69.68.8)
-Host is up (0.085s latency).
+Host is up (0.089s latency).
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE   VERSION
 80/tcp  open  http
 | fingerprint-strings: 
-|   GetRequest, HTTPOptions: 
+|   GetRequest: 
 |     HTTP/1.1 404 Site Not Found
 |     Content-Length: 2667
 |     Connection: close
 |     Content-Type: text/html
-|     Date: Mon, 14 Oct 2024 12:48:18 GMT
+|     Date: Thu, 14 Nov 2024 12:43:43 GMT
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <title>Microsoft Azure Web App - Error 404</title>
+|     <style type="text/css">
+|     html {
+|     height: 100%;
+|     width: 100%;
+|     #feature {
+|     width: 960px;
+|     margin: 75px auto 0 auto;
+|     overflow: auto;
+|     #content {
+|     font-family: "Segoe UI";
+|     font-weight: normal;
+|     font-size: 22px;
+|     color: #ffffff;
+|     float: left;
+|     margin-top: 68px;
+|     margin-left: 0px;
+|     vertical-align: middle;
+|     #content h1 {
+|     font-family: "Segoe UI Light";
+|     color: #ffffff;
+|     font-weight: normal;
+|   HTTPOptions: 
+|     HTTP/1.1 404 Site Not Found
+|     Content-Length: 2667
+|     Connection: close
+|     Content-Type: text/html
+|     Date: Thu, 14 Nov 2024 12:43:44 GMT
 |     <!DOCTYPE html>
 |     <html>
 |     <head>
@@ -44,7 +75,7 @@ PORT    STATE SERVICE   VERSION
 |     Content-Length: 2667
 |     Connection: close
 |     Content-Type: text/html
-|     Date: Mon, 14 Oct 2024 12:48:24 GMT
+|     Date: Thu, 14 Nov 2024 12:43:49 GMT
 |     <!DOCTYPE html>
 |     <html>
 |     <head>
@@ -75,7 +106,7 @@ PORT    STATE SERVICE   VERSION
 |     Content-Length: 2667
 |     Connection: close
 |     Content-Type: text/html
-|     Date: Mon, 14 Oct 2024 12:48:25 GMT
+|     Date: Thu, 14 Nov 2024 12:43:50 GMT
 |     <!DOCTYPE html>
 |     <html>
 |     <head>
@@ -103,10 +134,10 @@ PORT    STATE SERVICE   VERSION
 |_    font-weight: normal;
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D1312%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735F080%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,AF1,"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nContent-L
 SF:ength:\x202667\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\
-SF:nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:48:18\x20GMT\r\n\r\n<!DOCTYPE
+SF:nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:43:43\x20GMT\r\n\r\n<!DOCTYPE
 SF:\x20html>\r\n<html>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsoft\x20Az
 SF:ure\x20Web\x20App\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x20<styl
 SF:e\x20type=\"text/css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\x20{\r\
@@ -133,8 +164,8 @@ SF:\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20col
 SF:or:\x20#ffffff;\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
 SF:\x20\x20\x20font-weight:\x20normal;\r\n\x20\x20\x20")%r(HTTPOptions,AF1
 SF:,"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nContent-Length:\x202667\r
-SF:\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nDate:\x20Mon,\x
-SF:2014\x20Oct\x202024\x2012:48:18\x20GMT\r\n\r\n<!DOCTYPE\x20html>\r\n<ht
+SF:\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nDate:\x20Thu,\x
+SF:2014\x20Nov\x202024\x2012:43:44\x20GMT\r\n\r\n<!DOCTYPE\x20html>\r\n<ht
 SF:ml>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsoft\x20Azure\x20Web\x20Ap
 SF:p\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x20<style\x20type=\"text
 SF:/css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\x20{\r\n\x20\x20\x20\x2
@@ -161,10 +192,10 @@ SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ffffff;\
 SF:r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font
 SF:-weight:\x20normal;\r\n\x20\x20\x20");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D1319%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735F086%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,AF1,"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nCo
 SF:ntent-Length:\x202667\r\nConnection:\x20close\r\nContent-Type:\x20text/
-SF:html\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:48:24\x20GMT\r\n\r\n<!
+SF:html\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:43:49\x20GMT\r\n\r\n<!
 SF:DOCTYPE\x20html>\r\n<html>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsof
 SF:t\x20Azure\x20Web\x20App\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x
 SF:20<style\x20type=\"text/css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\
@@ -192,7 +223,7 @@ SF:\x20color:\x20#ffffff;\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
 SF:x20\x20\x20\x20\x20font-weight:\x20normal;\r\n\x20\x20\x20")%r(HTTPOpti
 SF:ons,AF1,"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nContent-Length:\x2
 SF:02667\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nDate:\x2
-SF:0Mon,\x2014\x20Oct\x202024\x2012:48:25\x20GMT\r\n\r\n<!DOCTYPE\x20html>
+SF:0Thu,\x2014\x20Nov\x202024\x2012:43:50\x20GMT\r\n\r\n<!DOCTYPE\x20html>
 SF:\r\n<html>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsoft\x20Azure\x20We
 SF:b\x20App\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x20<style\x20type
 SF:=\"text/css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\x20{\r\n\x20\x20
@@ -220,4 +251,4 @@ SF:fffff;\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
 SF:x20font-weight:\x20normal;\r\n\x20\x20\x20");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 12:50:19 2024 -- 1 IP address (1 host up) scanned in 134.56 seconds
+# Nmap done at Thu Nov 14 12:45:45 2024 -- 1 IP address (1 host up) scanned in 135.09 seconds

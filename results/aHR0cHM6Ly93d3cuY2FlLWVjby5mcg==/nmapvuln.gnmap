@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Oct 14 12:48:05 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.cae-eco.fr
+# Nmap 7.92 scan initiated Thu Nov 14 12:43:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.cae-eco.fr
 Host: 13.69.68.8 ()	Status: Up
 Host: 13.69.68.8 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https//Microsoft-IIS|10.0/	Ignored State: filtered (998)
-# Nmap done at Mon Oct 14 12:50:19 2024 -- 1 IP address (1 host up) scanned in 134.56 seconds
+# Nmap done at Thu Nov 14 12:45:45 2024 -- 1 IP address (1 host up) scanned in 135.09 seconds
