@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln code.gouv.fr</pre>
-<p class="lead">Mon Oct 14 13:13:44 2024 – Mon Oct 14 13:14:21 2024<br>1 hosts scanned.
+<p class="lead">Thu Nov 14 13:13:11 2024 – Thu Nov 14 13:13:50 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>62.210.173.74</td>
 <td>code.gouv.fr</td>
-<td>12</td>
+<td>13</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -132,6 +132,7 @@
     	8AD01159-548E-546E-AA87-2DE89F3927EC	9.8	https://vulners.com/githubexploit/8AD01159-548E-546E-AA87-2DE89F3927EC	*EXPLOIT*
     	5E6968B4-DBD6-57FA-BF6E-D9B2219DB27A	9.8	https://vulners.com/githubexploit/5E6968B4-DBD6-57FA-BF6E-D9B2219DB27A	*EXPLOIT*
     	33D623F7-98E0-5F75-80FA-81AA666D1340	9.8	https://vulners.com/githubexploit/33D623F7-98E0-5F75-80FA-81AA666D1340	*EXPLOIT*
+    	0221525F-07F5-5790-912D-F4B9E2D1B587	9.8	https://vulners.com/githubexploit/0221525F-07F5-5790-912D-F4B9E2D1B587	*EXPLOIT*
     	PACKETSTORM:179290	8.1	https://vulners.com/packetstorm/PACKETSTORM:179290	*EXPLOIT*
     	FB2E9ED1-43D7-585C-A197-0D6628B20134	8.1	https://vulners.com/githubexploit/FB2E9ED1-43D7-585C-A197-0D6628B20134	*EXPLOIT*
     	FA3992CE-9C4C-5350-8134-177126E0BD3F	8.1	https://vulners.com/githubexploit/FA3992CE-9C4C-5350-8134-177126E0BD3F	*EXPLOIT*
@@ -324,6 +325,19 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nginx/1.25.4</pre>
 </td></tr>
 <tr class="success">
+<td title="Port">8081</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">http</td>
+<td title="Product">PHP cli server</td>
+<td title="Version">5.5 or later</td>
+<td title="Extra Info">PHP 7.4.33</td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:php:php">cpe:/a:php:php</a><h5>http-trane-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
+</td></tr>
+<tr class="success">
 <td title="Port">8090</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
@@ -462,6 +476,16 @@
 <td>1.25.4</td>
 <td>cpe:/a:igor_sysoev:nginx:1.25.4</td>
 <td></td>
+</tr>
+<tr>
+<td>62.210.173.74 - code.gouv.fr</td>
+<td>8081</td>
+<td>tcp</td>
+<td>http</td>
+<td>PHP cli server</td>
+<td>5.5 or later</td>
+<td>cpe:/a:php:php</td>
+<td>PHP 7.4.33</td>
 </tr>
 <tr>
 <td>62.210.173.74 - code.gouv.fr</td>
