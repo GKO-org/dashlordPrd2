@@ -269,7 +269,7 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "045850FB22F0234211C5DFE59564808BB34A"
+              "finding"      : "034A63728DFB12045DCF9D4DF3A32C564083"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "086C6B0D104AAAAB13BADEAD5DD5B6C1E80C0292"
+              "finding"      : "B9007044BA3D4B247FDAA1BAF65BD7125657AF2F"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DA3BDEAD494BCD9F427967689070D983F631D2AB150604BD2B902D9DDD0D0D3F"
+              "finding"      : "5FA20B0ABBEB5FDA5F3337A1CE56E058BE3AB0044C918F223BA19653DBA22315"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "57 >= 30 days"
+              "finding"      : "88 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-10-12 23:21"
+              "finding"      : "2024-12-12 23:56"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-01-10 23:21"
+              "finding"      : "2025-03-12 23:56"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -388,7 +388,7 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://r10.o.lencr.org"
+              "finding"      : "http://r11.o.lencr.org"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -437,21 +437,21 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "R10 (Let's Encrypt from US)"
+              "finding"      : "R11 (Let's Encrypt from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFBTCCAu2gAwIBAgIQS6hSk/eaL6JzBkuoBI110DANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTAeFw0yNDAzMTMwMDAwMDBaFw0yNzAzMTIyMzU5NTlaMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPV+XmxFQS7bRH/sknWHZGUCiMHT6I3wWd1bUYKb3dtVq/+vbOo76vACFLYlpaPAEvxVgD9on/jhFD68G14BQHlo9vH9fnuoE5CXVlt8KvGFs3Jijno/QHK20a/6tYvJWuQP/py1fEtVt/eA0YYbwX51TGu0mRzW4Y0YCF7qZlNrx06rxQTOr8IfM4FpOUurDTazgGzRYSespSdcitdrLCnF2YRVxvYXvGLe48E1KGAdlX5jgc3421H5KRmudKHMxFqHJV8LDmowfs/acbZp4/SItxhHFYyTr6717yW0QrPHTnj7JHwQdqzZq3DZb3EoEmUVQK7GH29/Xi8orIlQ2NAgMBAAGjgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBS7vMNHpeS8qcbDpHIMEI2iNeHI6DAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAkrHnQTfreZ2B5s3iJeE6IOmQRJWjgVzPw139vaBw1bGWKCIL0vIozwzn1OZDjCQiHcFCktEJr59L9MhwTyAWsVrdAfYf+B9haxQnsHKNY67u4s5Lzzfdu6PUzeetUK29v+PsPmI2cJkxp+iN3epi4hKu9ZzUPSwMqtCceb7qPVxEbpYxY1p91n5PJKBLBX9eb9LU6l8zSxPWV7bK3lG4XaMJgnT9x3ies7msFtpKK5bDtotij/l0GaKeA97pb5uwD9KgWvaFXMIEt8jVTjLEvwRdvCn294GPDF08U8lAkIv7tghluaQh1QnlE4SEN4LOECj8dsIGJXpGUk3aU3KkJz9icKy+aUgA+2cP21uh6NcDIS3XyfaZQjmDQ993ChII8SXWupQZVBiIpcWO4RqZk3lr7Bz5MUCwzDIA359e57SSq5CCkY0N4B6Vulk7LktfwrdGNVI5BsC9qqxSwSKgRJeZ9wygIaehbHFHFhcBaMDKpiZlBHyzrsnnlFXCb5s8HKn5LsUgGvB24L7sGNZP2CX7dhHov+YhD+jozLW2p9W4959Bz2EiRmqDtmiXLnzqTpXbI+suyCsohKRg6Un0RC47+cpiVwHiXZAW+cn8eiNIjqbVgXLxKPpdzvvtTnOPlC7SQZSYmdunr3Bf9b77AiC/ZidstK36dRILKz7OA54=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFBjCCAu6gAwIBAgIRAIp9PhPWLzDvI4a9KQdrNPgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDEMMAoGA1UEAxMDUjExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuoe8XBsAOcvKCs3UZxD5ATylTqVhyybKUvsVAbe5KPUoHu0nsyQYOWcJDAjs4DqwO3cOvfPlOVRBDE6uQdaZdN5R2+97/1i9qLcT9t4x1fJyyXJqC4N0lZxGAGQUmfOx2SLZzaiSqhwmej/+71gFewiVgdtxD4774zEJuwm+UE1fj5F2PVqdnoPy6cRms+EGZkNIGIBloDcYmpuEMpexsr3E+BUAnSeI++JjF5ZsmydnS8TbKF5pwnnwSVzgJFDhxLyhBax7QG0AtMJBP6dYuC/FXJuluwme8f7rsIU5/agK70XEeOtlKsLPXzze41xNG/cLJyuqC0J3U095ah2H2QIDAQABo4H4MIH1MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUxc9GpOr0w8B6bJXELbBeki8m47kwHwYDVR0jBBgwFoAUebRZ5nu25eQBc4AIiMgaWPbpm24wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8veDEuaS5sZW5jci5vcmcvMBMGA1UdIAQMMAowCAYGZ4EMAQIBMCcGA1UdHwQgMB4wHKAaoBiGFmh0dHA6Ly94MS5jLmxlbmNyLm9yZy8wDQYJKoZIhvcNAQELBQADggIBAE7iiV0KAxyQOND1H/lxXPjDj7I3iHpvsCUf7b632IYGjukJhM1yv4Hz/MrPU0jtvfZpQtSlET41yBOykh0FX+ou1Nj4ScOt9ZmWnO8m2OG0JAtIIE3801S0qcYhyOE2G/93ZCkXufBL713qzXnQv5C/viOykNpKqUgxdKlEC+Hi9i2DcaR1e9KUwQUZRhy5j/PEdEglKg3l9dtD4tuTm7kZtB8v32oOjzHTYw+7KdzdZiw/sBtnUfhBPORNuay4pJxmY/WrhSMdzFO2q3Gu3MUBcdo27goYKjL9CTF8j/Zz55yctUoVaneCWs/ajUX+HypkBTA+c8LGDLnWO2NKq0YD/pnARkAnYGPfUDoHR9gVSp/qRx+ZWghiDLZsMwhN1zjtSC0uBWiugF3vTNzYIEFfaPG7Ws3jDrAMMYebQ95JQ+HIBD/RPBuHRTBpqKlyDnkSHDHYPiNX3adPoPAcgdF3H2/W0rmoswMWgTlLn1Wu0mrks7/qpdWfS6PJ1jty80r2VKsM/Dj3YIDfbjXKdaFU5C+8bhfJGqU3taKauuz0wHVGT3eo6FlWkWYtbt4pgdamlwVeZEW+LM7qZEJEsMNPrfC03APKmZsJgpWCDWOKZvkZcvjVuYkQ4omYCTX5ohy+knMjdOmdH9c7SpqEWBDC86fiNex+O0XOMEZSa8DA\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9D7C3F1AA6AD2B2EC0D5CF1E246F8D9AE6CBC9FD0755AD37BB974B1F2FB603F3"
+              "finding"      : "591E9CE6C863D3A079E9FABE1478C7339A26B21269DDE795211361024AE31A44"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
@@ -479,7 +479,7 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "R10 <-- ISRG Root X1"
+              "finding"      : "R11 <-- ISRG Root X1"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -500,14 +500,14 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731587330"
+              "finding"      : "1734179367"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -694,7 +694,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=DA3BDEAD494BCD9F427967689070D983F631D2AB150604BD2B902D9DDD0D0D3F"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=5FA20B0ABBEB5FDA5F3337A1CE56E058BE3AB0044C918F223BA19653DBA22315"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1070,6 +1070,6 @@
               "ip"           : "www.bison-fute.gouv.fr/194.5.170.168",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "107"
           }
 ]
