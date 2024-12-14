@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "77 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (47)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-01-30 22:59"
           }
 ,         {
@@ -500,14 +500,14 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731587200"
+              "finding"      : "1734179127"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "57"
           }
 ]
