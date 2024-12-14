@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Thu Nov 14 13:08:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 13:18:48 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
 Nmap scan report for cnaop.gouv.fr (185.194.82.142)
-Host is up (0.14s latency).
+Host is up (0.081s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
 80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
@@ -12,32 +12,33 @@ PORT    STATE  SERVICE    VERSION
 |   FourOhFourRequest, GetRequest: 
 |     HTTP/1.0 401 Unauthorized
 |     WWW-Authenticate: Basic realm=""
-|     Connection: close
+|     Connection: Keep-Alive
 |     Content-Length: 9
 |     ERROR
 |   HTTPOptions: 
 |     HTTP/1.0 403 Forbidden
-|     Connection: close
+|     Connection: Keep-Alive
 |     Content-Length: 9
 |     ERROR
 |   RTSPRequest, SIPOptions: 
 |     HTTP/1.0 400 Bad Request
-|     Connection: close
+|     Connection: Keep-Alive
 |     Content-Length: 9
 |_    ERROR
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735F660%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authent
-SF:icate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length
-SF::\x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forb
-SF:idden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n403\x20ERR
-SF:OR")%r(FourOhFourRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Au
-SF:thenticate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-L
-SF:ength:\x209\r\n\r\n401\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x20400\x2
-SF:0Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n
-SF:400\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nC
-SF:onnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D85D0%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,73,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authent
+SF:icate:\x20Basic\x20realm=\"\"\r\nConnection:\x20Keep-Alive\r\nContent-L
+SF:ength:\x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,4E,"HTTP/1\.0\x20403\x2
+SF:0Forbidden\r\nConnection:\x20Keep-Alive\r\nContent-Length:\x209\r\n\r\n
+SF:403\x20ERROR")%r(FourOhFourRequest,73,"HTTP/1\.0\x20401\x20Unauthorized
+SF:\r\nWWW-Authenticate:\x20Basic\x20realm=\"\"\r\nConnection:\x20Keep-Ali
+SF:ve\r\nContent-Length:\x209\r\n\r\n401\x20ERROR")%r(RTSPRequest,50,"HTTP
+SF:/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20Keep-Alive\r\nContent-
+SF:Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,50,"HTTP/1\.0\x20400\x2
+SF:0Bad\x20Request\r\nConnection:\x20Keep-Alive\r\nContent-Length:\x209\r\
+SF:n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 13:11:04 2024 -- 1 IP address (1 host up) scanned in 159.28 seconds
+# Nmap done at Sat Dec 14 13:21:28 2024 -- 1 IP address (1 host up) scanned in 160.08 seconds
