@@ -1,1 +1,4 @@
-# Nmap 7.92 scan initiated Sat Dec 14 12:30:42 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln boss.gouv.fr
+# Nmap 7.92 scan initiated Tue Jan 14 12:31:33 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln boss.gouv.fr
+Host: 91.209.25.94 ()	Status: Up
+Host: 91.209.25.94 ()	Ports: 7/closed/tcp//echo///, 80/open/tcp//http//LB/, 311/closed/tcp//asip-webadmin///, 443/open/tcp//ssl|http//Apache httpd/, 524/closed/tcp//ncp///, 903/closed/tcp//iss-console-mgr///, 1059/closed/tcp//nimreg///, 1060/closed/tcp//polestar///, 1061/closed/tcp//kiosk///, 1093/closed/tcp//proofd///, 1107/closed/tcp//isoipsigport-2///, 1174/closed/tcp//fnet-remote-ui///, 1500/closed/tcp//vlsi-lm///, 2010/closed/tcp//search///, 2800/closed/tcp//acc-raid///, 3690/closed/tcp//svn///, 3920/closed/tcp//exasoftport1///, 6123/closed/tcp//backup-express///, 8000/closed/tcp//http-alt///, 10566/closed/tcp//unknown///, 19315/closed/tcp//keyshadow///, 50500/closed/tcp//unknown///, 55600/closed/tcp//unknown///	Ignored State: filtered (977)
+# Nmap done at Tue Jan 14 12:41:04 2025 -- 1 IP address (1 host up) scanned in 570.86 seconds
