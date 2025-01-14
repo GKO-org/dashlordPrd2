@@ -339,7 +339,7 @@
               "ip"           : "www.cae-eco.fr/13.69.68.8",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "293 >= 60 days"
+              "finding"      : "262 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "www.cae-eco.fr/13.69.68.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.cae-eco.fr/13.69.68.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734180273"
+              "finding"      : "1736858612"
           }
 ,         {
               "id"           : "HSTS",
@@ -1091,6 +1091,6 @@
               "ip"           : "www.cae-eco.fr/13.69.68.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "158"
+              "finding"      : "109"
           }
 ]
