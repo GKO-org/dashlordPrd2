@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr</pre>
-<p class="lead">Sat Dec 14 13:18:48 2024 – Sat Dec 14 13:21:28 2024<br>1 hosts scanned.
+<p class="lead">Tue Jan 14 13:12:29 2025 – Tue Jan 14 13:13:03 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>185.194.82.142</td>
+<td>46.18.135.251</td>
 <td>cnaop.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,8 +91,8 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-82-142"><h3 class="panel-title">185.194.82.142 - cnaop.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="185-194-82-142">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#46-18-135-251"><h3 class="panel-title">46.18.135.251 - cnaop.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="46-18-135-251">
 <h4>Hostnames</h4>
 <ul><li>cnaop.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
@@ -111,14 +111,14 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http-proxy</td>
-<td title="Product">F5 BIG-IP load balancer http proxy</td>
+<td title="Service">http</td>
+<td title="Product">Apache httpd</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">BigIP</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 <tr class="active">
 <td>113</td>
@@ -133,32 +133,14 @@
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">https</td>
-<td title="Product"></td>
+<td title="Service">http</td>
+<td title="Product">Apache httpd</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-trane-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
-<h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, GetRequest: 
-    HTTP/1.0 401 Unauthorized
-    WWW-Authenticate: Basic realm=""
-    Connection: Keep-Alive
-    Content-Length: 9
-    ERROR
-  HTTPOptions: 
-    HTTP/1.0 403 Forbidden
-    Connection: Keep-Alive
-    Content-Length: 9
-    ERROR
-  RTSPRequest, SIPOptions: 
-    HTTP/1.0 400 Bad Request
-    Connection: Keep-Alive
-    Content-Length: 9
-    ERROR</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -178,23 +160,23 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>185.194.82.142 - cnaop.gouv.fr</td>
+<td>46.18.135.251 - cnaop.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>http-proxy</td>
-<td>F5 BIG-IP load balancer http proxy</td>
+<td>http</td>
+<td>Apache httpd</td>
 <td></td>
-<td></td>
+<td>cpe:/a:apache:http_server</td>
 <td></td>
 </tr>
 <tr>
-<td>185.194.82.142 - cnaop.gouv.fr</td>
+<td>46.18.135.251 - cnaop.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>https</td>
+<td>http</td>
+<td>Apache httpd</td>
 <td></td>
-<td></td>
-<td></td>
+<td>cpe:/a:apache:http_server</td>
 <td></td>
 </tr>
 </tbody>
