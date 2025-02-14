@@ -206,7 +206,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -269,7 +269,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5900B4BBE97A6CEEA28940AA5DA9C043"
+              "finding"      : "BBD00FD127DEC3792C8AC65671C1D6D5"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1BD67A6053D78D0B0B5073CECF72483597BF6145"
+              "finding"      : "21DB032588C06B81BB09F67B429F629CD9F6A8BF"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E7DEE6CD15048FA6CBA3B2483C8DB3699F50E2279D20F79676BEA82362B410EC"
+              "finding"      : "6828712B6CEA10F5F51744C036BAE1EF4D506B4B52F2F056ED7848C65D49E9D2"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -328,11 +328,18 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
-              "severity"     : "CRITICAL",
-              "finding"      : "failed (chain incomplete)."
+              "severity"     : "OK",
+              "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -345,22 +352,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (9)"
+              "severity"     : "OK",
+              "finding"      : "64 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-24 23:00"
+              "finding"      : "2025-01-19 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2025-01-23 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-04-19 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,14 +388,14 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -423,7 +430,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -438,6 +445,48 @@
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-22 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "cartes.gouv.fr/57.128.40.173",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -465,7 +514,7 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858965"
+              "finding"      : "1739537445"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -666,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E7DEE6CD15048FA6CBA3B2483C8DB3699F50E2279D20F79676BEA82362B410EC"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6828712B6CEA10F5F51744C036BAE1EF4D506B4B52F2F056ED7848C65D49E9D2"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -986,69 +1035,62 @@
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "90"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "27"
           }
 ,         {
               "id"           : "cipher_strength_score",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "60"
           }
 ,         {
               "id"           : "cipher_strength_score_weighted",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "24"
           }
 ,         {
               "id"           : "final_score",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "81"
           }
 ,         {
               "id"           : "overall_grade",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
-              "severity"     : "CRITICAL",
-              "finding"      : "T"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "cartes.gouv.fr/57.128.40.173",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to T. Issues with the chain of trust (chain incomplete)"
+              "severity"     : "OK",
+              "finding"      : "A+"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "cartes.gouv.fr/57.128.40.173",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "57"
+              "finding"      : "60"
           }
 ]
