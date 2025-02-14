@@ -199,7 +199,7 @@
               "ip"           : "autoecoles.securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "autoecoles.securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "302 >= 60 days"
+              "finding"      : "271 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "autoecoles.securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736857008"
+              "finding"      : "1739535405"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -570,14 +570,7 @@
               "ip"           : "autoecoles.securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "object-src 'none'; frame-ancestors 'self'; report-uri http://autoecoles.securite-routiere.gouv.fr/report-uri/enforce"
-          }
-,         {
-              "id"           : "Content-Security-Policy-Report-Only",
-              "ip"           : "autoecoles.securite-routiere.gouv.fr/77.159.252.145",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "object-src 'none'; script-src 'self' https://cdn.tagcommander.com maps.google.com; script-src-attr 'self'; style-src 'self' https://api.tiles.mapbox.com; style-src-attr 'self'; frame-ancestors 'self'"
+              "finding"      : "object-src 'none'; script-src 'self' 'unsafe-inline' https://mucj.autoecoles.securite-routiere.gouv.fr https://cdnjs.cloudflare.com https://cdn.trustcommander.net https://cstatic.weborama.fr https://www.googletagmanager.com https://cdn.tagcommander.com maps.google.com; style-src 'self' 'unsafe-inline' https://api.tiles.mapbox.com; worker-src 'self' blob:; frame-ancestors 'self'; report-uri http://autoecoles.securite-routiere.gouv.fr/report-uri/enforce"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1119,6 +1112,6 @@
               "ip"           : "autoecoles.securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "97"
+              "finding"      : "58"
           }
 ]
