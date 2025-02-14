@@ -192,7 +192,7 @@
               "ip"           : "cadastre.gouv.fr/145.242.11.58",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -339,7 +339,7 @@
               "ip"           : "cadastre.gouv.fr/145.242.11.58",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "164 >= 60 days"
+              "finding"      : "133 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "cadastre.gouv.fr/145.242.11.58",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858484"
+              "finding"      : "1739536855"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -651,10 +651,10 @@
               "id"           : "ticketbleed",
               "ip"           : "cadastre.gouv.fr/145.242.11.58",
               "port"         : "443",
-              "severity"     : "DEBUG",
+              "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "test failed, non reproducible results. 0 TLS Session IDs 0, C030000016FF01000100000B00040300,C030000016FF01000100000B00040300,C030000016FF01000100000B00040300"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "ROBOT",
@@ -1126,6 +1126,6 @@
               "ip"           : "cadastre.gouv.fr/145.242.11.58",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "70"
+              "finding"      : "67"
           }
 ]
