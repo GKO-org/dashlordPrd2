@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "base-donnees-publique.medicaments.gouv.fr/217.115.174.72",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "85 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (54)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "base-donnees-publique.medicaments.gouv.fr/217.115.174.72",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-04-09 21:59"
           }
 ,         {
@@ -493,14 +493,14 @@
               "ip"           : "base-donnees-publique.medicaments.gouv.fr/217.115.174.72",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "base-donnees-publique.medicaments.gouv.fr/217.115.174.72",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736857314"
+              "finding"      : "1739535642"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1063,6 +1063,6 @@
               "ip"           : "base-donnees-publique.medicaments.gouv.fr/217.115.174.72",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "139"
+              "finding"      : "144"
           }
 ]
