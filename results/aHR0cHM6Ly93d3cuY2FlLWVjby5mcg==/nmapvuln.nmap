@@ -1,47 +1,16 @@
-# Nmap 7.92 scan initiated Tue Jan 14 12:44:36 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.cae-eco.fr
+# Nmap 7.92 scan initiated Fri Feb 14 12:46:03 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.cae-eco.fr
 Nmap scan report for www.cae-eco.fr (13.69.68.8)
 Host is up (0.10s latency).
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE   VERSION
 80/tcp  open  http
 | fingerprint-strings: 
-|   GetRequest: 
+|   GetRequest, HTTPOptions: 
 |     HTTP/1.1 404 Site Not Found
 |     Content-Length: 2667
 |     Connection: close
 |     Content-Type: text/html
-|     Date: Tue, 14 Jan 2025 12:44:50 GMT
-|     <!DOCTYPE html>
-|     <html>
-|     <head>
-|     <title>Microsoft Azure Web App - Error 404</title>
-|     <style type="text/css">
-|     html {
-|     height: 100%;
-|     width: 100%;
-|     #feature {
-|     width: 960px;
-|     margin: 75px auto 0 auto;
-|     overflow: auto;
-|     #content {
-|     font-family: "Segoe UI";
-|     font-weight: normal;
-|     font-size: 22px;
-|     color: #ffffff;
-|     float: left;
-|     margin-top: 68px;
-|     margin-left: 0px;
-|     vertical-align: middle;
-|     #content h1 {
-|     font-family: "Segoe UI Light";
-|     color: #ffffff;
-|     font-weight: normal;
-|   HTTPOptions: 
-|     HTTP/1.1 404 Site Not Found
-|     Content-Length: 2667
-|     Connection: close
-|     Content-Type: text/html
-|     Date: Tue, 14 Jan 2025 12:44:51 GMT
+|     Date: Fri, 14 Feb 2025 12:46:17 GMT
 |     <!DOCTYPE html>
 |     <html>
 |     <head>
@@ -70,43 +39,12 @@ PORT    STATE SERVICE   VERSION
 443/tcp open  ssl/https Microsoft-IIS/10.0
 |_http-server-header: Microsoft-IIS/10.0
 | fingerprint-strings: 
-|   GetRequest: 
+|   GetRequest, HTTPOptions: 
 |     HTTP/1.1 404 Site Not Found
 |     Content-Length: 2667
 |     Connection: close
 |     Content-Type: text/html
-|     Date: Tue, 14 Jan 2025 12:44:56 GMT
-|     <!DOCTYPE html>
-|     <html>
-|     <head>
-|     <title>Microsoft Azure Web App - Error 404</title>
-|     <style type="text/css">
-|     html {
-|     height: 100%;
-|     width: 100%;
-|     #feature {
-|     width: 960px;
-|     margin: 75px auto 0 auto;
-|     overflow: auto;
-|     #content {
-|     font-family: "Segoe UI";
-|     font-weight: normal;
-|     font-size: 22px;
-|     color: #ffffff;
-|     float: left;
-|     margin-top: 68px;
-|     margin-left: 0px;
-|     vertical-align: middle;
-|     #content h1 {
-|     font-family: "Segoe UI Light";
-|     color: #ffffff;
-|     font-weight: normal;
-|   HTTPOptions: 
-|     HTTP/1.1 404 Site Not Found
-|     Content-Length: 2667
-|     Connection: close
-|     Content-Type: text/html
-|     Date: Tue, 14 Jan 2025 12:44:57 GMT
+|     Date: Fri, 14 Feb 2025 12:46:23 GMT
 |     <!DOCTYPE html>
 |     <html>
 |     <head>
@@ -134,10 +72,10 @@ PORT    STATE SERVICE   VERSION
 |_    font-weight: normal;
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=67865C43%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=2/14%Time=67AF3B19%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,AF1,"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nContent-Le
 SF:ngth:\x202667\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n
-SF:Date:\x20Tue,\x2014\x20Jan\x202025\x2012:44:50\x20GMT\r\n\r\n<!DOCTYPE\
+SF:Date:\x20Fri,\x2014\x20Feb\x202025\x2012:46:17\x20GMT\r\n\r\n<!DOCTYPE\
 SF:x20html>\r\n<html>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsoft\x20Azu
 SF:re\x20Web\x20App\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x20<style
 SF:\x20type=\"text/css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\x20{\r\n
@@ -164,8 +102,8 @@ SF:r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20colo
 SF:r:\x20#ffffff;\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
 SF:x20\x20\x20font-weight:\x20normal;\r\n\x20\x20\x20")%r(HTTPOptions,AF1,
 SF:"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nContent-Length:\x202667\r\
-SF:nConnection:\x20close\r\nContent-Type:\x20text/html\r\nDate:\x20Tue,\x2
-SF:014\x20Jan\x202025\x2012:44:51\x20GMT\r\n\r\n<!DOCTYPE\x20html>\r\n<htm
+SF:nConnection:\x20close\r\nContent-Type:\x20text/html\r\nDate:\x20Fri,\x2
+SF:014\x20Feb\x202025\x2012:46:17\x20GMT\r\n\r\n<!DOCTYPE\x20html>\r\n<htm
 SF:l>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsoft\x20Azure\x20Web\x20App
 SF:\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x20<style\x20type=\"text/
 SF:css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\x20{\r\n\x20\x20\x20\x20
@@ -192,10 +130,10 @@ SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ffffff;\r
 SF:\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-
 SF:weight:\x20normal;\r\n\x20\x20\x20");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=67865C49%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/14%Time=67AF3B20%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,AF1,"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nCon
 SF:tent-Length:\x202667\r\nConnection:\x20close\r\nContent-Type:\x20text/h
-SF:tml\r\nDate:\x20Tue,\x2014\x20Jan\x202025\x2012:44:56\x20GMT\r\n\r\n<!D
+SF:tml\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2012:46:23\x20GMT\r\n\r\n<!D
 SF:OCTYPE\x20html>\r\n<html>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsoft
 SF:\x20Azure\x20Web\x20App\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x2
 SF:0<style\x20type=\"text/css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\x
@@ -223,7 +161,7 @@ SF:x20color:\x20#ffffff;\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
 SF:20\x20\x20\x20\x20font-weight:\x20normal;\r\n\x20\x20\x20")%r(HTTPOptio
 SF:ns,AF1,"HTTP/1\.1\x20404\x20Site\x20Not\x20Found\r\nContent-Length:\x20
 SF:2667\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nDate:\x20
-SF:Tue,\x2014\x20Jan\x202025\x2012:44:57\x20GMT\r\n\r\n<!DOCTYPE\x20html>\
+SF:Fri,\x2014\x20Feb\x202025\x2012:46:23\x20GMT\r\n\r\n<!DOCTYPE\x20html>\
 SF:r\n<html>\r\n<head>\r\n\x20\x20\x20\x20<title>Microsoft\x20Azure\x20Web
 SF:\x20App\x20-\x20Error\x20404</title>\r\n\x20\x20\x20\x20<style\x20type=
 SF:\"text/css\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20html\x20{\r\n\x20\x20\
@@ -251,4 +189,4 @@ SF:ffff;\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
 SF:20font-weight:\x20normal;\r\n\x20\x20\x20");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Jan 14 12:46:41 2025 -- 1 IP address (1 host up) scanned in 125.47 seconds
+# Nmap done at Fri Feb 14 12:48:08 2025 -- 1 IP address (1 host up) scanned in 125.23 seconds
