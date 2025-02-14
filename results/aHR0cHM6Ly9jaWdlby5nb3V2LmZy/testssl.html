@@ -10,7 +10,7 @@
 <pre>
 <span style="font-weight:bold;">
 #####################################################################</span>
-  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc3</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc4</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
 <span style="font-weight:bold;">
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1912-253:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1695-415:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2025-01-14 13:02:33                --&gt;&gt; 79.137.76.37:443 (cigeo.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-14 13:02:36                --&gt;&gt; 79.137.76.37:443 (cigeo.gouv.fr) &lt;&lt;--</span>
 
  rDNS (79.137.76.37):    vps381334.ovh.net.
  Service detected:       HTTP
@@ -100,15 +100,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>0411079E7CB73C3D74DB41FD0341816ACEC5 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 7834C7D9589C836BE26234FC63E43699B1DA34B7
-                              SHA256 0DFD36E53EABBBB03DAB68A4A9961A7414DE95E15B950F0D5D41C4AE9DDD3E61
+<span style="font-weight:bold;"> Serial                       </span>039CFE1B62E4D7EF1011EDAF4FC327BC968A (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 FBFF676482190C496EA7D2DEFC08C5E851DB464D
+                              SHA256 B442D29069EFD9B5123B1545EAA2991FA126C1A9E2363F11BAD6C99C8DD81B11
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>cigeo.gouv.fr </i> (CN in response to request w/o SNI: <i>vps381334.ovh.net </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>cigeo.gouv.fr www.cigeo.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">40 &gt;= 30 days</span> (2024-11-25 14:37 --&gt; 2025-02-23 14:37)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">69 &gt;= 30 days</span> (2025-01-24 16:34 --&gt; 2025-04-24 16:34)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r10.o.lencr.org
@@ -128,7 +128,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">730 days</span>=63072000 s<span style="color:#168092;">, just this domain</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
-<span style="font-weight:bold;"> Server banner                </span>(no &quot;Server&quot; line in header, interesting!)
+<span style="font-weight:bold;"> Server banner                </span>nginx&apos;
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;) -- maybe better try target URL of 30x
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">Content-Security-Policy</span>:
@@ -152,7 +152,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0DFD36E53EABBBB03DAB68A4A9961A7414DE95E15B950F0D5D41C4AE9DDD3E61" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0DFD36E53EABBBB03DAB68A4A9961A7414DE95E15B950F0D5D41C4AE9DDD3E61</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B442D29069EFD9B5123B1545EAA2991FA126C1A9E2363F11BAD6C99C8DD81B11" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B442D29069EFD9B5123B1545EAA2991FA126C1A9E2363F11BAD6C99C8DD81B11</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no common prime detected
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
@@ -211,7 +211,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>93
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-01-14 13:03:25 [  56s] --&gt;&gt; 79.137.76.37:443 (cigeo.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-14 13:04:13 [ 101s] --&gt;&gt; 79.137.76.37:443 (cigeo.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
