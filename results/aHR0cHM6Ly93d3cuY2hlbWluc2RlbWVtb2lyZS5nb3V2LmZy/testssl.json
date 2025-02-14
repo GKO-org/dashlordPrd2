@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.12.211",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (39)"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 30 days (8)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.12.211",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2025-02-23 08:02"
           }
 ,         {
@@ -507,14 +507,14 @@
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.12.211",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.12.211",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736859432"
+              "finding"      : "1739537777"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1140,6 +1140,6 @@
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.12.211",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "57"
           }
 ]
