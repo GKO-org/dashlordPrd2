@@ -339,7 +339,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "265 >= 60 days"
+              "finding"      : "234 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736860538"
+              "finding"      : "1739538932"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -584,7 +584,14 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "img-src 'self' https:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://code.jquery.com; default-src 'self' 'frame-src youtube.com www.youtube.com;'; style-src 'self' 'unsafe-inline' https://static.piste.gouv.fr"
+              "finding"      : "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://code.jquery.com; img-src 'self' https:; style-src 'self' 'unsafe-inline' https://static.piste.gouv.fr; default-src 'self' 'frame-src youtube.com www.youtube.com;'"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
           }
 ,         {
               "id"           : "Referrer-Policy",
@@ -1105,6 +1112,6 @@
               "ip"           : "collecte-pro.gouv.fr/185.194.82.232",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "89"
           }
 ]
